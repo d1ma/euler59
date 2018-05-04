@@ -96,7 +96,7 @@ for i in range(1000):
 		if num_e > 10 and num_e > num_non_e:
 			print uni
 			print 'Passed English test'
-			print 'Sum of ASCII values: ', sum([ord(a) for a int uni])
+			print 'Sum of ASCII values: ', sum([ord(a) for a in uni])
 			break
 		else: 
 			print 'Did not pass English test', num_e
